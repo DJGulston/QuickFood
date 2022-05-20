@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class Customer {
 	
+	// String constant variable for invoice.txt file name.
+	private static final String INVOICE_TXT = "invoice.txt";
+
 	// String constant variable for driver-info.txt file name.
 	private static final String DRIVER_INFO_TXT = "driver-info.txt";
 	
@@ -303,7 +306,7 @@ public class Customer {
 	 * Writes invoice details to the invoice.txt file.
 	 */
 	public void writeToInvoiceFile() {
-		File flInvoice = new File("invoice.txt");
+		File flInvoice = new File(INVOICE_TXT);
 		
 		Formatter invoiceFormatter = null;
 		
