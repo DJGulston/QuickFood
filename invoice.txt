@@ -1,21 +1,21 @@
 Order number: 1
 Customer: Bob
 Email: bob@gmail.com
-Phone number: 0843561492
-Customer location: Johannesburg
+Phone number: 0784613282
+Customer location: Witbank
 
-You have ordered the following from Kung Fu Kitchen in Johannesburg:
+You have ordered the following from Ocean Basket in Witbank:
 
-3 x Sweet and Sour Pork (R37,90)
-2 x 500ml Fanta Orange (R15,90)
-1 x Chicken Chow Mein (R39,90)
+3 x Hake and Chips (R39,90)
+5 x 500ml Coke Zero (R15,90)
+1 x Family Platter (R89,90)
 
-Special instructions: Extra pork and extra chicken.
-Total: R185,40
+Special instructions: Extra mussels.
+Total: R289,10
 
-Eisa Wilson is nearest to the restaurant and so they will be delivering your order to you at:
+Eshan Gibson is nearest to the restaurant and so they will be delivering your order to you at:
 
-24 7th Avenue
-Fourways
+4 7th Avenue
+Sandy Scapes
 
-If you need to contact the restaurant, their number is 0733498634.
+If you need to contact the restaurant, their number is 0815674892.

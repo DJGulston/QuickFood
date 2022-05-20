@@ -5,6 +5,10 @@ import java.util.Formatter;
 import java.util.Scanner;
 
 public class Customer {
+	
+	// String constant variable for driver-info.txt file name.
+	private static final String DRIVER_INFO_TXT = "driver-info.txt";
+	
 	// Main attributes for Customer class.
 	private int orderNumber;
 	private String customerName;
@@ -213,7 +217,7 @@ public class Customer {
 	/**
 	 * Finds a driver with the least load that shares the same location as the location passed as
 	 * the function's parameter strLocation.
-	 * @param strLocation - Location that is being compared to locations in the drivers.txt file.
+	 * @param strLocation - Location that is being compared to locations in the driver-info.txt file.
 	 * @return driver: String - Name of driver with the least load.
 	 */
 	private String findDriver(String strLocation) {
@@ -225,7 +229,7 @@ public class Customer {
 		// Number of driver's that match the location.
 		int driverMatchIndex = 0;
 		
-		File flDrivers = new File("driver-info.txt");
+		File flDrivers = new File(DRIVER_INFO_TXT);
 		
 		Scanner scDrivers = null;
 		
@@ -239,7 +243,7 @@ public class Customer {
 				// Line in driver-info.txt file.
 				String strLine = scDrivers.nextLine();
 				
-				// Scanner for single line in drivers.txt file.
+				// Scanner for single line in driver-info.txt file.
 				scLine = new Scanner(strLine);
 				
 				// Each item in a line separated using a comma and space as a dual delimiter.
@@ -255,7 +259,7 @@ public class Customer {
 					
 					// If the parameter location has not matched a driver's location yet, set the current
 					// minimum driver load and driver name to the driver load and driver name in the
-					// current line of the the drivers.txt file.
+					// current line of the the driver-info.txt file.
 					if(driverMatchIndex == 0) {
 						minDriverLoad = driverLoad;
 						driver = driverName;
@@ -263,7 +267,7 @@ public class Customer {
 					else {
 						
 						// If the current minimum driver load is greater than the driver load in the current line
-						// of the driver-info.txt file, set the current minimum driver load and driver name to the
+						// of the drivers.txt file, set the current minimum driver load and driver name to the
 						// driver load and driver name in the current line of the the driver-info.txt file.
 						if(minDriverLoad > driverLoad) {
 							minDriverLoad = driverLoad;
