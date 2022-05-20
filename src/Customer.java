@@ -225,18 +225,18 @@ public class Customer {
 		// Number of driver's that match the location.
 		int driverMatchIndex = 0;
 		
-		File flDrivers = new File("drivers.txt");
+		File flDrivers = new File("driver-info.txt");
 		
 		Scanner scDrivers = null;
 		
 		Scanner scLine = null;
 		
 		try {
-			// Scanner for drivers.txt file.
+			// Scanner for driver-info.txt file.
 			scDrivers = new Scanner(flDrivers);
 			
 			while(scDrivers.hasNextLine()) {
-				// Line in drivers.txt file.
+				// Line in driver-info.txt file.
 				String strLine = scDrivers.nextLine();
 				
 				// Scanner for single line in drivers.txt file.
@@ -245,7 +245,7 @@ public class Customer {
 				// Each item in a line separated using a comma and space as a dual delimiter.
 				scLine.useDelimiter(", ");
 				
-				// Three line items in drivers.txt file.
+				// Three line items in driver-info.txt file.
 				String driverName = scLine.next();
 				String driverLocation = scLine.next();
 				int driverLoad = Integer.parseInt(scLine.next());
@@ -263,8 +263,8 @@ public class Customer {
 					else {
 						
 						// If the current minimum driver load is greater than the driver load in the current line
-						// of the drivers.txt file, set the current minimum driver load and driver name to the
-						// driver load and driver name in the current line of the the drivers.txt file.
+						// of the driver-info.txt file, set the current minimum driver load and driver name to the
+						// driver load and driver name in the current line of the the driver-info.txt file.
 						if(minDriverLoad > driverLoad) {
 							minDriverLoad = driverLoad;
 							driver = driverName;

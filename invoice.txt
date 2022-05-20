@@ -1,2 +1,21 @@
-Sorry! Our drivers are too far away from your restaurant to be able to deliver to your location.
-Sorry! Our drivers are too far away from you to be able to deliver to your location.
+Order number: 1
+Customer: Bob
+Email: bob@gmail.com
+Phone number: 0843561492
+Customer location: Johannesburg
+
+You have ordered the following from Kung Fu Kitchen in Johannesburg:
+
+3 x Sweet and Sour Pork (R37,90)
+2 x 500ml Fanta Orange (R15,90)
+1 x Chicken Chow Mein (R39,90)
+
+Special instructions: Extra pork and extra chicken.
+Total: R185,40
+
+Eisa Wilson is nearest to the restaurant and so they will be delivering your order to you at:
+
+24 7th Avenue
+Fourways
+
+If you need to contact the restaurant, their number is 0733498634.
